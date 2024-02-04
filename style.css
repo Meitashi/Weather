@@ -20,7 +20,7 @@
     background-color: rgb(146, 218, 234);
     box-sizing: border-box;
     padding: 10px;
-    background-image: url(/Погода/img/background.jpg);
+    background-image: url(/img/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
