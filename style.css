@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+}
+:root{
+    --color1: rgba(158, 158, 158, 0.356);
+    --color2: rgba(255, 255, 255, 0.852);
+    --font15: 15px;
+}
+.container{
+    max-width: 100%;
+    min-width: 500px;
+    height: 1200px;
+
+    background-color: rgb(146, 218, 234);
+    box-sizing: border-box;
+    padding: 10px;
+    background-image: url(/Погода/img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.info-city{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.info-city button{
+    width: 40px;
+    background-color: #ffffff00;
+    border: none;
+    cursor: pointer;
+}
+.weather-info{
+    max-width: 100%;
+    height: 700px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.weather-now{
+    font-size: 4cm;
+    display: flex;
+    text-align: center;
+}
+.weather-day-and-night{
+    font-size: 20px;
+    width: 100px;
+    color: var(--color1);
+    text-align: center;
+}
+.weather-day-and-night span{
+    font-size: 20px;
+}
+.weather-aqi{
+    font-size: var(--font15);
+    width: 180px;
+    height: 20px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: rgba(128, 128, 128, 0.279);
+    border-radius: 10px;
+    text-wrap: nowrap;
+}
+.weather-aqi span{
+    font-size: 15px;
+}
+.weather-info-next-week{
+    max-width: 98%;
+    min-width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #acabab2e;
+    border-radius: 25px;
+    margin-top: 140px;
+}
+.weather-more-info{
+    max-width: 100%;
+    min-width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+.info-weather-for-5-days{
+    font-size: var(--font15);
+    color: var(--color2);
+}
+.btn-more-information{
+    color: var(--color2);
+    display: flex;
+    text-align: center;
+}
+.btn-more-information button{
+    font-size: var(--font15);
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+.btn-more-information button:hover{
+    text-decoration: underline;
+}
+.weather-first-three{
+    max-width: 100%;
+    min-width: 500px;
+}
+.yesterday{
+    max-width: 100%;
+    min-width: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.today{
+    max-width: 100%;
+    min-width: 500px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.tomorrow{
+    max-width: 100%;
+    min-width: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.btn-next-weather{
+    max-width: 100%;
+    min-width: 500px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.btn-next-weather button{
+    max-width: 95%;
+    min-width: 500px;
+    height: 30px;
+    margin-top: 20px;
+    background-color: #ffffff4e;
+    border: none;
+    border-radius: 25px;
+    font-size: 20px;
+    cursor: pointer;
+}

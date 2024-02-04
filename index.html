@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/Погода/img/weather.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="info-city">
+            <div class="btn-add"><button type="button">+</button></div>
+            <div class="name-city"></div>
+            <div class="btn-more"><button type="button"><img src="/Погода/img/three points.png" alt=""></button></div>
+        </div>
+        <div class="weather-info">
+            <div class="weather-now"></div>
+            <p></p>
+            <span class="weather-state"></span>
+            <div class="weather-day-and-night"><span class="temp-day"></span>/<span class="temp-night"></span></div>
+            <p></p>
+            <div class="weather-aqi">Давление: <span class="aqi-state"></span></div>
+        </div>
+        <div class="weather-info-next-week">
+            <div class="weather-more-info">
+                <div class="info-weather-for-5-days">Прогноз на 5 дней</div>
+                <div class="btn-more-information"><button type="button">Подробнее ></button></div>
+            </div>
+            <div class="weather-first-three">
+                <div class="yesterday">
+                    <div class="yesterday-weather">Вчера</div>
+                    <div class="yesterday-temperature"><span class="yes-temp-day"></span> / <span class="yes-temp-night"></span></div>
+                </div>
+                <div class="today">
+                    <div class="today-weather">Сегодня</div>
+                    <div class="today-temperature"><span class="today-temp-day"></span> / <span class="today-temp-night"></span></div>
+                </div>
+                <div class="tomorrow">
+                    <div class="tomorrow-weather">Завтра</div>
+                    <div class="tomorrow-temperature"><span class="tom-temp-day"></span> / <span class="tom-temp-night"></span></div>
+                </div>
+                <div class="btn-next-weather"><button type="button">Прогноз на 5 дней</button></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
